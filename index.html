@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="layout">
+
+    <header class="header gutter--horizontal-small">
+        <a href="index.html">
+            <img src="img/logo_50.svg" alt="header logo" class="logo">
+        </a>
+    </header>
+
+    <div class="main-content layout__item--content-w-sticked-footer">
+
+
+
+    <div class="highlight layout__item--full-width gutter--horizontal-big">
+        
+        <div class="highlight-wrapper layout__item--80-percent layout__item--centered-horizontally">
+            <div class="highlight-image-wrapper">
+                <img src="img/image-1.jpg" alt="image highlight" class="highlight-image">
+            </div>
+            <div class="highlight-content">
+                <h6 class="highlight-title">Céges programok</h6>
+                <p class="highlight-desc">A túrázás számunkra életvitel és most abban szeretnénk segíteni, hogy Neked is azzá váljon! Örömmel értesítünk, hogy létrehoztuk a Túrabarátok Klubot, amely lehetőséget biztosít arra, hogy aktívabban élj és minél több időt tölthess a természetben!</p>
+            </div>
+        </div>
+       
+    </div>
+
+    
+
+    <div class="gallery layout__item--80-percent layout__item--centered-horizontally gutter--horizontal-big" id="gallery-app">
+
+        <h6 class="heading">Válassz hozzád illő túrát</h6>
+
+
+
+        <div class="cards" id="elemek-kontener">
+
+            <button id="prevButton" class="btn-arrow btn-left">&lt;</button>
+            <button id="nextButton" class="btn-arrow btn-right">&gt;</button>
+
+            <!--
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/image-1.jpg" alt="card image" class="card-image">
+                </div>
+                <div class="card-icons">
+                    <a href="#"><i class="fas fa-clock card-icon"></i>21st may, 2022</a>
+                    <a href="#""><i class="fas fa-user card-icon"></i>by admin</a>
+                </div>
+                <div class="card-content">
+                    <h6 class="card-title">Java programozás tanfolyam</h6>
+                    <p class="card-desc">Tanuld meg a Java nyelv alapjait, két hét alatt, midenféle előképzetség nélkük.</p>
+                    <button class="btn card-btn">Read more</button>
+                </div>
+            </div>
+
+-->
+
+
+        </div><!--cards-->
+
+    </div>
+
+
+    </div> <!--main-content-->
+
+    <footer class="footer">
+        <p class="footer-copyright">
+            © 2020 Copyright
+            <span class="brand-name">Brand Name</span> / design by
+            <span class="student-name">Bori Gábor</span>
+        </p>
+    </footer>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
